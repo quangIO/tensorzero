@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/clients/python/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/clients/python/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/clients/rust/examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/clients/rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/clients/rust/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/evaluations/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/evaluations/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examples/integrations/cursor/feedback/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gateway/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gateway/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/internal/tensorzero-auth/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/internal/tensorzero-auth/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/internal/tensorzero-derive/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/internal/tensorzero-derive/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/internal/tensorzero-node/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/provider-proxy/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/provider-proxy/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tensorzero-core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tensorzero-core/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tensorzero-core/tests/load/feedback/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tensorzero-core/tests/load/rate-limit-load-test/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tensorzero-core/tests/mock-inference-provider/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

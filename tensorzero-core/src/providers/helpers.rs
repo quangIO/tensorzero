@@ -179,6 +179,9 @@ pub async fn inject_extra_request_data_and_send(
         &mut body,
     )?;
     let raw_request = body.to_string();
+    eprintln!("Raw request: {raw_request}");
+    eprintln!("Headers: {:?}", headers);
+    tracing::warn!("Raw request: {raw_request}");
     // Apply the headers as the very last step, so that they can overwrite all
     // other headers (including things like `Authorization` and `Content-Type`)
     Ok((
@@ -220,6 +223,8 @@ pub async fn inject_extra_request_data_and_send_eventsource(
         &mut body,
     )?;
     let raw_request = body.to_string();
+    eprintln!("Raw request:\n{raw_request}\n\n");
+    eprintln!("Headers:\n{:?}\n\n", headers);
     // Apply the headers as the very last step, so that they can overwrite all
     // other headers (including things like `Authorization` and `Content-Type`)
     Ok((

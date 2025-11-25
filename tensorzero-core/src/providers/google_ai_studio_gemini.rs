@@ -289,6 +289,7 @@ impl InferenceProvider for GoogleAIStudioGeminiProvider {
         let mut url = self.streaming_request_url.clone();
         url.query_pairs_mut()
             .append_pair("key", api_key.expose_secret());
+        println!("URL: {url}");
         let builder = http_client.post(url);
         let (event_source, raw_request) = inject_extra_request_data_and_send_eventsource(
             PROVIDER_TYPE,
